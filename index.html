@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" dir="rtl">
   <head>
+    <link rel="stylesheet" href="styles.css"> 
+    <link href=" https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap" rel="stylesheet"> 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>بطاقتي التعريفية</title>
@@ -9,10 +11,11 @@
   </head>
 
   <body>
+  
     <nav>
       <div class="nav-elements">
-        <a href="#">هويّتي</a>
-        <a href="#">هواياتي</a>
+        <a href="#one">هويّتي</a>
+        <a href="#two">هواياتي</a>
       </div>
     </nav>
     <h1>مرحباً، أنا طالب في مسار الويب</h1>
@@ -25,13 +28,16 @@
       <img src="./img/kid.png" alt="person" />
 
       <!-------------------(البيانات)------------------>
-      <h1>اسمك</h1>
-      <h4>هواياتي المفضلة</h4>
+      <h1>أفراح</h1>
+      <h4 id="one"> هواياتي المفضلة</h4>
 
-      <ul>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
+      <ul class="gridcontainer">
+        <li>reading</li>
+          
+        <li>gaming</li>
+         
+        <li>writing</li>
+         
       </ul>
 
       <a href="https://code.kw/">
@@ -40,6 +46,11 @@
     </div>
     <!-------------------(الهوايات)------------------>
     <!-- قم بإضافة صور هواياتك هنا -->
-    <div class="hobbies"></div>
+    <div id="two" class="hobbies">
+      <div> <img src="https://cdn.dribbble.com/users/3942177/screenshots/10076498/book-reading_4x.jpg"> </div>
+      <div> <img src="https://cdn.dribbble.com/users/2908303/screenshots/6356011/gamer_-_dribbble_4x.png?compress=1&resize=400x300"> </div>
+      <div> <img src="https://image.freepik.com/free-vector/writer-writing-paper-sheet_101884-25.jpg"> </div>
+    </div>
+      
   </body>
 </html>
